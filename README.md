@@ -25,7 +25,7 @@ A comprehensive Spring Boot application for managing cricket teams, players, mat
 ## 📋 Prerequisites
 Before running this application, ensure you have:
 
-* **Java 21** or higher</br>
-* **MySQL 8.0** or higher</br>
-* **Maven 3.6** or higher</br>
-* **Git** (for cloning the repository)</br>
+ **Java 21** or higher</br>
+ **MySQL 8.0** or higher</br>
+ **Maven 3.6** or higher</br>
+ **Git** (for cloning the repository)</br>
