@@ -30,9 +30,9 @@ Before running this application, ensure you have:
 * **Maven 3.6** or higher</br>
 * **Git** (for cloning the repository)</br>
 ## 📁 Project Structure
-src/main/java/com/acciojob/CricBuzz/
-├── controller/          # REST API Controllers
-│   ├── PlayerController.java
+src/main/java/com/acciojob/CricBuzz/ </br>
+├── controller/          # REST API Controllers</br>
+│   ├── PlayerController.java</br>
 │   ├── TeamController.java
 │   ├── MatchController.java
 │   └── StatsController.java
