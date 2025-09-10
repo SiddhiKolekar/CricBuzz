@@ -59,3 +59,30 @@ src/main/java/com/acciojob/CricBuzz/ </br>
 ├── converter/         # Entity-DTO Converters</br>
 ├── exception/         # Custom Exceptions</br>
 └── CricBuzzApplication.java</br>
+## 🔍 Error Handling
+The application includes comprehensive error handling:
+
+* **PlayerNotFoundException**: When player ID is invalid
+* **TeamNotFoundException**: When team ID is invalid
+* **HTTP 400**: Bad Request for invalid data
+* **HTTP 201**: Created for successful resource creation
+## 📧 Email Notifications
+The application automatically sends email notifications when:
+
+* A new player is registered successfully</br>
+Email configuration uses Gmail SMTP with the following settings:
+
+* Host: smtp.gmail.com
+* Port: 587
+* Authentication: Required
+* TLS: Enabled
+## 🤝 Contributing
+* Fork the repository
+* Create a feature branch (git checkout -b feature/amazing-feature)
+* Commit your changes (git commit -m 'Add some amazing feature')
+* Push to the branch (git push origin feature/amazing-feature)
+* Open a Pull Request
+## 🙏 Acknowledgments
+* Spring Boot team for the excellent framework
+* MySQL team for the database
+* Lombok team for reducing boilerplate code
