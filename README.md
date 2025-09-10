@@ -33,9 +33,9 @@ Before running this application, ensure you have:
 src/main/java/com/acciojob/CricBuzz/ </br>
 ├── controller/          # REST API Controllers</br>
 │   ├── PlayerController.java</br>
-│   ├── TeamController.java
-│   ├── MatchController.java
-│   └── StatsController.java
+│   ├── TeamController.java</br>
+│   ├── MatchController.java</br>
+│   └── StatsController.java</br>
 ├── service/            # Business Logic Layer
 │   ├── PlayerService.java
 │   ├── TeamService.java
