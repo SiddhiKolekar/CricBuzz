@@ -36,26 +36,26 @@ src/main/java/com/acciojob/CricBuzz/ </br>
 │   ├── TeamController.java</br>
 │   ├── MatchController.java</br>
 │   └── StatsController.java</br>
-├── service/            # Business Logic Layer
-│   ├── PlayerService.java
-│   ├── TeamService.java
-│   ├── MatchService.java
-│   └── StatsService.java
-├── repository/         # Data Access Layer
-│   ├── PlayerRepository.java
-│   └── TeamRepository.java
-├── model/             # Entity Classes
-│   ├── Player.java
-│   ├── Team.java
-│   ├── CricketMatch.java
-│   ├── Stats.java
-│   └── Enum/
-│       ├── Gender.java
-│       ├── Speciality.java
-│       └── MatchType.java
-├── dto/               # Data Transfer Objects
-│   ├── request/
-│   └── response/
-├── converter/         # Entity-DTO Converters
-├── exception/         # Custom Exceptions
-└── CricBuzzApplication.java
+├── service/            # Business Logic Layer</br>
+│   ├── PlayerService.java</br>
+│   ├── TeamService.java</br>
+│   ├── MatchService.java</br>
+│   └── StatsService.java</br>
+├── repository/         # Data Access Layer</br>
+│   ├── PlayerRepository.java</br>
+│   └── TeamRepository.java</br>
+├── model/             # Entity Classes</br>
+│   ├── Player.java</br>
+│   ├── Team.java</br>
+│   ├── CricketMatch.java</br>
+│   ├── Stats.java</br>
+│   └── Enum/</br>
+│       ├── Gender.java</br>
+│       ├── Speciality.java</br>
+│       └── MatchType.java</br>
+├── dto/               # Data Transfer Objects</br>
+│   ├── request/</br>
+│   └── response/</br>
+├── converter/         # Entity-DTO Converters</br>
+├── exception/         # Custom Exceptions</br>
+└── CricBuzzApplication.java</br>
