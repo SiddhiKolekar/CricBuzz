@@ -25,7 +25,37 @@ A comprehensive Spring Boot application for managing cricket teams, players, mat
 ## 📋 Prerequisites
 Before running this application, ensure you have:
 
- **Java 21** or higher</br>
- **MySQL 8.0** or higher</br>
- **Maven 3.6** or higher</br>
- **Git** (for cloning the repository)</br>
+* **Java 21** or higher</br>
+* **MySQL 8.0** or higher</br>
+* **Maven 3.6** or higher</br>
+* **Git** (for cloning the repository)</br>
+## 📁 Project Structure
+src/main/java/com/acciojob/CricBuzz/
+├── controller/          # REST API Controllers
+│   ├── PlayerController.java
+│   ├── TeamController.java
+│   ├── MatchController.java
+│   └── StatsController.java
+├── service/            # Business Logic Layer
+│   ├── PlayerService.java
+│   ├── TeamService.java
+│   ├── MatchService.java
+│   └── StatsService.java
+├── repository/         # Data Access Layer
+│   ├── PlayerRepository.java
+│   └── TeamRepository.java
+├── model/             # Entity Classes
+│   ├── Player.java
+│   ├── Team.java
+│   ├── CricketMatch.java
+│   ├── Stats.java
+│   └── Enum/
+│       ├── Gender.java
+│       ├── Speciality.java
+│       └── MatchType.java
+├── dto/               # Data Transfer Objects
+│   ├── request/
+│   └── response/
+├── converter/         # Entity-DTO Converters
+├── exception/         # Custom Exceptions
+└── CricBuzzApplication.java
