@@ -14,3 +14,18 @@ A comprehensive Spring Boot application for managing cricket teams, players, mat
 * **Exception Handling**: Custom exception handling with proper error responses
 * **API Documentation**: Swagger/OpenAPI documentation
 * **Data Validation**: Request/Response DTOs with proper validation
+## 🛠️ Technology Stack
+* **Framework**: Spring Boot 3.3.5
+* **Language**: Java 17 or more
+* **Database**: MySQL 8.0
+* **ORM**: Spring Data JPA with Hibernate
+* **Build Tool**: Maven
+* **Email**: Spring Boot Mail Starter
+* **Utilities**: Lombok for boilerplate reduction
+## 📋 Prerequisites
+Before running this application, ensure you have:
+
+**Java 21** or higher
+**MySQL 8.0** or higher
+**Maven 3.6** or higher
+**Git** (for cloning the repository)
